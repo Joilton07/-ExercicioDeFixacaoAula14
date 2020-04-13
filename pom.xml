@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.joilton</groupId>
-    <artifactId>Aula141</artifactId>
+    <artifactId>EdFAula14</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -13,12 +13,12 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11</version>
+            <version>13</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>11</version>
+            <version>13</version>
         </dependency>
     </dependencies>
     <build>
@@ -39,7 +39,7 @@
                     <execution>
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>br.com.joilton.Aula141.App</mainClass>
+                            <mainClass>br.com.joilton.EdFAula14.App</mainClass>
                         </configuration>
                     </execution>
                     <execution>
@@ -48,7 +48,7 @@
                             <options>
                                 <option>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address}</option>
                             </options>
-                            <mainClass>br.com.joilton.Aula141.App</mainClass>
+                            <mainClass>br.com.joilton.EdFAula14.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>
